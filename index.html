@@ -13,11 +13,18 @@
 
 <body>
     <header>
+        
         <nav>
+            
             <ul>
-                <li><a href="#description">Description</a></li>
-                <li><a href="#beginners">Beginners</a></li>
-                <li><a href="#beginners">Intermediate</a></li>
+                <div id="l">
+                    <img src="TensorBuildLogo.png" width="40" id="logo" >
+                </div>
+                <div id="r">
+                    <li><a href="#description">Description</a></li>
+                    <li><a href="#beginners">Beginners</a></li>
+                    <li><a href="#beginners">Intermediate</a></li>
+                </div>
             </ul>
         </nav>
     </header>
@@ -43,15 +50,15 @@
                 <path
                     d="M28.1022 55.3647C26.2894 53.5519 26.2894 50.6127 28.1022 48.7999L47.8097 29.0924C48.7161 28.186 50.1857 28.186 51.0921 29.0924C51.9985 29.9988 51.9985 31.4684 51.0921 32.3748L28.1022 55.3647Z"
                     fill="white" />
-                <rect x="3.53345" y="27.4666" width="36.0336" height="4.64" rx="2.32" transform="rotate(45 3.53345 27.4666)"
-                    fill="white" />
+                <rect x="3.53345" y="27.4666" width="36.0336" height="4.64" rx="2.32"
+                    transform="rotate(45 3.53345 27.4666)" fill="white" />
             </svg>
         </a>
     </section>
 
     <section class="Description" id="description">
         <div class="description">
-          <h2>Description</h2>
+            <h2>Description</h2>
             <p>This AI Model uses custom scratch blocks for AI training!</p>
         </div>
     </section>
@@ -61,18 +68,19 @@
             <div style="display: flex; flex-direction: row; gap: 2em; margin-top: 2em;">
                 <button onclick="beginner()" class="beginners beginner-button">Beginners</button>
                 <button class="beginners beginner-button">Intermediate</button>
-            </div>  
-        <br><br>
+            </div>
+            <br><br>
             <p>New to AI and coding? No problem! Use this section to block code!</p>
         </div>
     </section>
 
 
-    
+
 </body>
 <script>
     function beginner() {
         window.location.href = 'blocks.html';
     }
 </script>
+
 </html>
