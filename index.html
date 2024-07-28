@@ -60,7 +60,7 @@
     <section class="Beginners" id="beginners">
         <div class="beginners">
             <div style="display: flex; flex-direction: row; gap: 2em; margin-top: 2em;">
-                <button class="beginners beginner-button">Beginners</button>
+                <button onclick="beginner()" class="beginners beginner-button">Beginners</button>
                 <button class="beginners beginner-button">Intermediate</button>
             </div>  
         <br><br>
@@ -71,5 +71,10 @@
 
     
 </body>
-
+<script>
+    function beginner() {
+        window.location.href += 'blocks.html';
+        console.log('hi'); 
+    }
+</script>
 </html>
