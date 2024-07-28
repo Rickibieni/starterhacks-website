@@ -151,3 +151,22 @@ footer {
     padding-top: 1em;
     background-color: #f5f5f5;
 }
+
+body {
+    opacity: 0; /* Start as invisible */
+    transform: translateY(20px); /* Start position slightly below */
+    animation: fadeInUp 2s forwards; /* Apply the animation */
+}
+
+@keyframes fadeInUp {
+
+    0% {
+        opacity: 0; /* Fully transparent at the start */
+        transform: translateY(20px); /* Slightly below the final position */
+    }
+    100% {
+        opacity: 1; /* Fully opaque at the end */
+        transform: translateY(0); /* Final position */
+    }
+
+}

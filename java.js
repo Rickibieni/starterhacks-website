@@ -17,3 +17,13 @@ tl.from('.char', {
     delay: .4,
     duration: 1.4
 })
+console.log('hi')
+
+document.addEventListener("DOMContentLoaded", (event) => {
+    document.getElementById('reloadButton').addEventListener('click', function() {
+        console.log("HI");
+        window.location.reload(); // Reload the page
+    });
+});
+
+
